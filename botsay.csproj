@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
 
     <PackAsTool>True</PackAsTool>
+    <ToolCommandName>botsay-z</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
