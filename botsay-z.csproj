@@ -9,4 +9,7 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="botsay-xyz/Program.cs" />
+  </ItemGroup>
 </Project>

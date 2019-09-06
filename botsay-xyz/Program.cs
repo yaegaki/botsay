@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace botsay
+namespace botsay_xyz
 {
     class Program
     {
@@ -14,10 +14,10 @@ namespace botsay
                                         .InformationalVersion
                                         .ToString();
 
-                Console.WriteLine($"botsay-z v{versionString}");
+                Console.WriteLine($"botsay-xyz v{versionString}");
                 Console.WriteLine("-------------");
                 Console.WriteLine("\nUsage:");
-                Console.WriteLine("  botsay-z <message>");
+                Console.WriteLine("  botsay-xyz <message>");
                 return;
             }
 
@@ -70,3 +70,4 @@ namespace botsay
         }
     }
 }
+
